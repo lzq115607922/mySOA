@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: my-spring-cloud-zuul
+
+server:
+  port: 8088
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka/
+
+zuul:
+  routes:
+    api-a:
+      # 以 /api/a 开头的请求都转发给 my-spring-cloud-web-admin-feign 服务
+      path: /api/a/**
+      serviceId: my-spring-cloud-web-admin-feign
+    api-b:
+      # 以 /api/b 开头的请求都转发给 my-spring-cloud-web-admin-ribbon 服务
+      path: /api/b/**
+      serviceId: my-spring-cloud-web-admin-ribbon
