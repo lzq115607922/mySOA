@@ -3,11 +3,23 @@ spring:
     name: my-spring-cloud-config
   cloud:
     config:
-      label: master
+      # 配置仓库的分支
+      label: main
       server:
         git:
-          uri:
+          # 配置Git仓库地址（如果使用GitLab作为仓库，需要在地址末尾加上.git）
+          uri: https://github.com/lzq115607922/mySOA/tree/main/spring-cloud-config
+          # 配置仓库路径（存放配置文件的目录）
+          search-paths: respo
+          # 访问Git仓库的账号和密码
+          username: lzq115607922
+          password: Jin920316
 
 # 配置中心的端口默认是8888，如需修改新建一个bootstrap.properties文件，在里边写server.port=8090
 server:
   port: 8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka/
