@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-spring-cloud-config/my-spring-cloud-config.iml" filepath="$PROJECT_DIR$/my-spring-cloud-config/my-spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-spring-cloud-dependencies/my-spring-cloud-dependencies.iml" filepath="$PROJECT_DIR$/my-spring-cloud-dependencies/my-spring-cloud-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-spring-cloud-eureka/my-spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/my-spring-cloud-eureka/my-spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-spring-cloud-service-admin/my-spring-cloud-service-admin.iml" filepath="$PROJECT_DIR$/my-spring-cloud-service-admin/my-spring-cloud-service-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-spring-cloud-web-admin-feign/my-spring-cloud-web-admin-feign.iml" filepath="$PROJECT_DIR$/my-spring-cloud-web-admin-feign/my-spring-cloud-web-admin-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-spring-cloud-web-admin-ribbon/my-spring-cloud-web-admin-ribbon.iml" filepath="$PROJECT_DIR$/my-spring-cloud-web-admin-ribbon/my-spring-cloud-web-admin-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-spring-cloud-zuul/my-spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/my-spring-cloud-zuul/my-spring-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mySOA.iml" filepath="$PROJECT_DIR$/.idea/mySOA.iml" />
+    </modules>
+  </component>
+</project>
