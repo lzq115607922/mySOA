@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: my-spring-cloud-web-admin-ribbon
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+
+server:
+  port: 8086
+
+#Origin parameter: http://localhost:8087/hystrix.stream is not in the allowed list of proxy host names.  If it should be allowed add it to hystrix.dashboard.proxyStreamAllowList.
+#简单点说就是需要把localhost加入到代理所允许的集合里，不然也是访问不了
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "localhost"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka/
