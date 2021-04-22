@@ -8,7 +8,7 @@ spring:
       server:
         git:
           # 配置Git仓库地址（如果使用GitLab作为仓库，需要在地址末尾加上.git）
-          uri: https://github.com/lzq115607922/mySOA/tree/main/spring-cloud-config
+          uri: https://github.com/lzq115607922/spring-cloud-config
           # 配置仓库路径（存放配置文件的目录）
           search-paths: respo
           # 访问Git仓库的账号和密码
