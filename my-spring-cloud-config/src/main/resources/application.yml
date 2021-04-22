@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: my-spring-cloud-config
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri:
+
+# 配置中心的端口默认是8888，如需修改新建一个bootstrap.properties文件，在里边写server.port=8090
+server:
+  port: 8888
